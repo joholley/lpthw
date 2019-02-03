@@ -27,21 +27,21 @@ print(100 - 25 * 3 % 4)
 # HANDY SHORTCUT - 'command /' will turn lines into comments and back again.
 
 ## VARIABLES
-# cars=100
-# space_in_a_car = 4.0
-# drivers = 30
-# passengers = 90
-# cars_not_driven = cars - drivers
-# cars_driven = drivers
-# carpool_capacity = cars_driven * space_in_a_car
-# average_passengers_per_car = passengers / cars_driven
+cars=100
+space_in_a_car = 4.0
+drivers = 30
+passengers = 90
+cars_not_driven = cars - drivers
+cars_driven = drivers
+carpool_capacity = cars_driven * space_in_a_car
+average_passengers_per_car = passengers / cars_driven
 
-# print("cars available", cars)
-# print("drivers available", drivers)
-# print("empty cars today", cars_not_driven)
-# print("carpool capacity", carpool_capacity)
-# print("passengers today", passengers)
-# print("average number of people in each car", average_passengers_per_car)
+print("cars available", cars)
+print("drivers available", drivers)
+print("empty cars today", cars_not_driven)
+print("carpool capacity", carpool_capacity)
+print("passengers today", passengers)
+print("average number of people in each car", average_passengers_per_car)
 
 #a 'for' loop is an iterable, so it will print each item it encounters in the string one by one, so one on each line
 string="some string"
