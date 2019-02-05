@@ -52,3 +52,10 @@ string=["some string", "another string"]
 for x in string:
     print(x)
 
+
+
+# for adding to GitHub
+git status
+git add . #to add all files
+git commit -m "a note for the upload" # -m includes is a message
+git push
